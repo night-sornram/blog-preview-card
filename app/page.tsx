@@ -16,7 +16,7 @@ export default function Home() {
         <div className=' text-[16px]'>
           Published 21 Dec 2023
         </div>
-        <div className=' text-2xl cursor-pointer font-bold text-custom-100'>
+        <div className=' text-2xl cursor-pointer font-bold text-custom-400 hover:text-custom-100'>
           HTML & CSS foundations 
         </div>
         <div className=' text-custom-300'>
