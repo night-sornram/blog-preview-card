@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <div className=' w-screen h-screen flex justify-center items-center'>
-      <div className=' w-96 space-y-4 bg-white flex flex-col justify-center p-5 border shadow-[15px_15px_0px_1px_rgba(0,0,0,1)] border-black rounded-xl'>
+      <div className=' min-[430px]:w-96 w-11/12   space-y-4 bg-white flex flex-col justify-center p-5 border min-[430px]:shadow-[15px_15px_0px_1px_rgba(0,0,0,1)] shadow-[7px_7px_0px_1px_rgba(0,0,0,1)] border-black rounded-xl'>
         <Image
         src={"/images/illustration-article.svg"}
         width={336}
